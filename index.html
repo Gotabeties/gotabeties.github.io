@@ -1,31 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
-    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
-      type="text/css"
-    />
-    <title>Google Maps Clone</title>
+    <title>Google Classroom</title>
+    <link rel="shortcut icon" href="ClassroomIcon.png" />
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
         body {
-            margin: 0;
+            text-align: center;
+            background: rgb(255,0,0);
+            background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(213,255,0,1) 100%);
         }
 
-        #map {
-            height: 100vh;
-            width: 100vw;
+        h1{
+            font-size: 50px;
+            font-family: Nabla;
+        }
+
+        a {
+            border-style: solid;
+            padding: 3px;
+            line-height: 40px;
+            border-color: rgb(255, 174, 0);
+            text-decoration: none;
+            color: black;
+            font-family: Segoe UI;
+        }
+
+        .og {
+            border-color: red;
+            color: red;
         }
     </style>
-    <script src="script.js" defer></script>
 </head>
 <body>
-    <div id='map'></div>
+    <h1>Games</h1>
+    <a href="Games/Snake.html">Snake</a>
+    <div></div>
+    <a href="Games/TicTacToe.html">TicTacToe</a>
+    <div></div>
+    <a href="Games/WordGuess/WordGuess.html">Word Guess</a>
+    <div></div>
+    <a href="Games/CatGame.html">Cat Dressing Room</a>
+    <div></div>
+    <a href="Games/TraficRacer.html">Trafic Racer</a>
+    <div></div>
+    <a href="Games/AlienInvaders/AlienInvaders.html">Alien Invaders</a>
+    <div></div>
+    <a href="Games/PixelPlatformer/PixelPlatformer.html">Pixel Platformer</a>
+    <div></div>
+    <a href="Games/EndlessRunner/EndlessRunner.html">Endless Runner</a>
+    <div></div>
+    <a href="Games/2048/2048.html">2048</a>
+    <div></div>
+    <a href="Games/MineCraft/MineCraft.html">Minecraft</a>
+    <div></div>
+    <a href="Games/1v1.lol/index.htm">1v1.lol</a>
+    <div></div>
+    <a href="Games/CookieClicker/index.html">Cookie Clicker - Long loading</a>
+    <div></div>
+    <a class="og" href="Games/RandomStuff.html">OG - Random Stuff</a>
+    <div></div>
+    <a class="og" href="Games/Suggest_A_Game.html">Suggest a Game</a>
+    
+    <script src="https://form.jotform.com/cardforms/feedbackEmbedButton.min.js"></script>
+    <script>
+      new JF_FeedbackEmbedButton({
+        
+        buttonText: "Get Feedback",
+        buttonFontColor: "#FFFFFF",
+        buttonBackgroundColor: "#007FEF",
+        buttonSide: "Bottom",
+        buttonAlign: "Right",
+        buttonIcon: "envelope",
+        base: "https://form.jotform.com/",
+        formId: 222596773297068
+      });
+    </script>
+    
 </body>
-</html>
